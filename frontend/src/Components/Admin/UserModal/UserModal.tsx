@@ -164,13 +164,13 @@ const UserModal: React.FC<UserModalProps> = ({ onClose, onSubmit, userToEdit }) 
              />
            </div>
 
-          <div className="form-group">
+          {/* <div className="form-group">
             <label htmlFor="role">Role</label>
             <select name="role" value={formData.role} onChange={handleChange}>
               <option value="user">Regular User</option>
               <option value="admin">Admin</option>
             </select>
-          </div>
+          </div> */}
 
           <div className="modal-footer">
             <button type="button" className="btn-cancel" onClick={onClose}>Cancel</button>
